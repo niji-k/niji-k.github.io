@@ -1,0 +1,92 @@
+* {    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: "Asta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400 ;
+    color: #cccccc ;
+    font-style: normal;
+    font-size: 14px;
+}
+
+h3::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 4px;
+    background-color: #f3a974;
+    margin-right: 0.5em;
+    margin-left: -1em;
+    vertical-align:middle;
+    border-radius: 4px;
+}
+
+header, section {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em 2.5em;
+    margin: 3em 0;
+    border: 3px solid #f3a974;
+}
+
+h3 {
+    position: relative;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: #6bbaff;
+}
+
+b {
+    font-weight:800;
+}
+
+i {
+    font-style: italic;
+}
+
+.small-rant {
+    color: #686868;
+    font-size: 0.7em;
+}
+
+body {
+    margin: 2.5em;
+    background-color: #1f1e33;
+}
+
+ul {
+    padding-left: 2em;
+}
+
+::marker {
+    content: "-  ";
+    color: #f3a974;
+}
+
+.qna {
+    border: 3px white dotted;
+    border-radius: 1em;
+    padding: 0.5em 1em;
+    margin: 1em 0;
+}
+
+.qna > p.qna-question {
+    font-size: 18px;
+    color: #f3a974;
+}
+
+.qna > p.qna-question > i {
+    font-size: 14px;
+    color: #f3a974;
+}
